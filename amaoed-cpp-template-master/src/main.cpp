@@ -1,22 +1,6 @@
-/* ****************************************************************
- * @author: <your name here>
- * @app name: <your application name here>
- * @app desc: <describe the purpose of your application here>
- * @history:
- *  - <yyyy/mm/dd> | <name>
- *      -- <description>
- *      -- <description>
- *      -- <description>
- *  - <yyyy/mm/dd> | <name>
- *      -- <description>
- *      -- <description>
- *      -- <description>
- * ****************************************************************/
 
-#include <cstdio>
-#include <cstdlib>
 #include <iostream>
-#include "_pause.h"
+
 
 using namespace std;
 
@@ -33,11 +17,12 @@ int main() {
     // Place your code logic after this comment line
     // ***********************************************************
 
-    cout << "Hello World!" << endl;
-
+    cout << "Hello" << endl;
+    cout << "World!" << endl;
     // ********************** DO NOT CHANGE **********************
     // Print a new line and ask user for any key before exiting
     // ***********************************************************
-    _pause();
+    system("pause>0");
+
     return EXIT_SUCCESS;
 }
